@@ -4,6 +4,7 @@ run the following commands
 
 - `composer install`
 - `touch database/database.sqlite`
+-  rename the file `.env.example` to `.env`
 - `php artisan migrate`
 
 
