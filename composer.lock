@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4f1f7ecfee98069de144a232b706df9",
+    "content-hash": "4d4dc5ee7b60c4470589e487b995ea1f",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -5116,5 +5116,7 @@
     "platform": {
         "php": "^7.2"
     },
-    "platform-dev": []
+    "platform-dev": {
+        "ext-pdo_sqlite": "*"
+    }
 }
