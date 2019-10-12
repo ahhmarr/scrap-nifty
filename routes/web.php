@@ -13,7 +13,7 @@
 
 $router->get('/', function () use ($router) {
     return [
-        'title' => 'nifty scrapper',
+        'title' => 'nifty scrapper :)',
         'author' => 'ahmar siddiqui',
         'email' => 'ahmar.siddiqui@gmail.com'
     ];
